@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.bg-color{
+    background-color: hsl(44, 100%, 97%);
+}
+img {
+    max-width: 100%;
+  }
+.img-logo{
+    width: 250px;
+}
+.custom-btn {
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    background: linear-gradient(#291b3a, #171038)
+}
+.text-highlight {
+    color: hsl(141, 88%, 43%);
+  }
+  .custom-btn i {
+    margin-right: 10px;
+  }
+  .custom-btn:hover {
+    color: hsl(0, 0%, 100%);
+  }
+  .card-title {
+    color: hsl(235, 24%, 28%);
+  }
+  .shop-information .icon {
+    width: 80px;
+    margin-right: 15px;
+  }
+  .shop-information .shadow-sm {
+    box-shadow: 0 0.125rem 2rem rgba(0, 0, 0, 0.075) !important;
+  }
+  .shop-information-img {
+    padding-left: 70px;
+  }
+
+  .casual-backpack .card {
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px hsla(0, 0%, 0%, 0.149);
+  }
+  .casual-backpack .card-img {
+    height: 270px;
+    background-color: hsl(0, 0%, 95%);
+    width: 88%;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 15px;
+  }
+  .casual-backpack .card-img img {
+    max-height: 100%;
+    width: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  .casual-backpack .card:hover img {
+    transform: scale(1.05);
+  }
+  .casual-backpack .card-footer {
+    background-color: transparent;
+    border-top: 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1{
+    font-family: "Bebas Neue", cursive;
+    color: hsl(235, 35%, 22%);
+  }
+  h2{
+    font-family: "Bebas Neue", cursive;
+    color: hsl(235, 24%, 28%);
+  }
+  h3 {
+    font-family: "Bebas Neue", cursive;
+    color: hsl(235, 24%, 28%);
+  }
+  h5 {
+    font-family: "Bebas Neue", cursive;
+    color: hsl(235, 24%, 28%);
+  }
